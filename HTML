@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>URBAN MANS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>URBAN MANS</h1>
+
+<div class="products">
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+    <h2>Running Shoes</h2>
+    <p>$100</p>
+    <button onclick="addToCart('Running Shoes',100)">Add</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1528701800489-20be3c4a62bb">
+    <h2>Sneakers</h2>
+    <p>$120</p>
+    <button onclick="addToCart('Sneakers',120)">Add</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+    <h2>T-Shirt</h2>
+    <p>$50</p>
+    <button onclick="addToCart('T-Shirt',50)">Add</button>
+  </div>
+
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1593032465171-8f4dcb3d7c61">
+    <h2>Backpack</h2>
+    <p>$80</p>
+    <button onclick="addToCart('Backpack',80)">Add</button>
+  </div>
+
+</div>
+
+<h2>Total Bill: $<span id="total">0</span></h2>
+
+<h3>Cart Items:</h3>
+<ul id="cart-list"></ul>
+
+<button onclick="clearCart()">Clear Cart</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
